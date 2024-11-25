@@ -23,9 +23,15 @@ const Banner = () => {
             {/* Add headline or title here if needed */}
           </h2>
           <p>
-            The Global Village in Dubai, UAE serves as a vibrant space where cultures from around the world converge to celebrate diversity and heritage. This venue, often hosted as part of larger festivals or events, showcases an array of cultural pavilions, performances, traditional crafts, and cuisine from different countries. It reflects the UAE’s commitment to fostering multicultural interaction and promoting global unity while highlighting its own rich heritage and traditions.
-            <br /> <br />
-            Such spaces are integral to Dubai's efforts to position itself as a cultural and tourism hub. These events are often part of initiatives like the Dubai Shopping Festival or Dubai Expo, designed to attract visitors from around the world. They provide an opportunity for people to experience the unique traditions and innovations of multiple nations, all within a single, immersive location.
+          Dubai's Global Village is one of the city's most beloved and budget-friendly family attractions, offering a vibrant mix of international pavilions, delicious global cuisines, market stalls, thrilling rides, and captivating shows.
+            <br /> <br /><br></br>
+            After a summer break, Global Village reopened on Wednesday, October 16, and will remain open until Sunday, May 11.
+            <br></br>
+            <br></br>
+            If you're planning to visit but feeling overwhelmed by the sheer amount of activities, don't worry—we've got you covered with a complete guide to this exciting and lively destination.
+            <br></br>
+            <br></br>
+            Here’s everything you need to know about this expansive, multi-cultural theme park, including ticket prices, discounts, pavilions, rides, transport options, and more.
           </p>
         </div>
 
