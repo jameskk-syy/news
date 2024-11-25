@@ -95,7 +95,7 @@ const NewsList = () => {
             Your browser does not support the audio element.
           </audio>
           <p className="mt-4 text-gray-600">
-            <strong>Highlights:</strong> In this episode, we explore the experiences of organizers and visitors at the global village. Listen to interviews with event coordinators and attendees who share their thoughts on the cultural significance of this event.
+            <strong>Highlights:</strong> In this episode, we explore the experiences of organizers and visitors at the global village. Listen to coordinators  who share their thoughts on the cultural significance of this event.
           </p>
         </section>
 
@@ -107,7 +107,7 @@ const NewsList = () => {
             Your browser does not support the video tag.
           </video>
           <p className="mt-4 text-gray-600">
-            Watch this exclusive video capturing the vibrant energy of Dubai’s global village. From dazzling performances to heartfelt interviews with visitors, this video brings the experience to life.
+            Watch this exclusive video capturing the vibrant energy of Dubai’s global village. From dazzling performances to heartfelt, this video brings the experience to life.
           </p>
         </section>
       </div>
