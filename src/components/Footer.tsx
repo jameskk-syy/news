@@ -11,7 +11,7 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="text-center md:text-left">
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
-            News Website
+            New Cultural Pavilions
             </h2>
             <p className="mt-2 text-gray-600 dark:text-gray-400">
               Building a better digital experience for everyone.
