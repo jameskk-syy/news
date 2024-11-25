@@ -8,8 +8,9 @@ const page = () => {
   const [password, setPassword] = useState("");
   const router = useRouter();
 
-  const storedEmail = "adminnews@gmail.com";
-  const storedPassword = "admin1234";
+  const storedEmail = "albosanifatima355@gmail.com
+  ";
+  const storedPassword = "fatima11-11";
 
   const handleLogin = (e) => {
     e.preventDefault();
