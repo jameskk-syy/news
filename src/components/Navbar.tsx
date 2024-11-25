@@ -32,7 +32,7 @@ const Navbar = () => {
       <nav className="max-w-7xl mx-auto flex justify-between items-center px-4 sm:px-6 lg:px-8">
         {/* logo */}
         <div className="text-xl font-bold">
-          <Link href="/">News Website</Link>
+          <Link href="/"> New Cultural Pavilions</Link>
         </div>
 
         {/* desktop navigation */}

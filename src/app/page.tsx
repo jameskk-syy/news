@@ -26,7 +26,7 @@ export default function Home() {
 
       <div className="my-12 mt-10">
         <p className="text-lg mb-8 text-gray-600">
-          Here, you will explore articles, photo essays, podcasts, and videos curated to provide an in-depth journey through the vibrant cultural experiences of the Global Village in Dubai, UAE.
+        Global Village is famous for its wide range of cultural pavilions, and 2024 introduces several exciting new additions. Each pavilion showcases the rich heritage, crafts, and products of different countries.
         </p>
 
       </div>
