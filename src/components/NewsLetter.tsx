@@ -4,7 +4,7 @@ import { Input } from './ui/input'
 
 const NewsLetter = () => {
   return (
-    <section className="bg-gray-800 text-white dark:bg-gray-800 dark:text-white py-12 rounded">
+    <section className="bg-gray-800 mt-44 text-white dark:bg-gray-800 dark:text-white py-12 rounded">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-3xl font-bold">
           Stay Updated

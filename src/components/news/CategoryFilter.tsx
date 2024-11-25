@@ -10,7 +10,7 @@ interface CategoryFilterProps {
   onCategoryChange: (category: string) => void;
 }
 const CategoryFilter = ({ onCategoryChange }: CategoryFilterProps) => {
-  const categories = ["all", "tech", "health", "sports", "business"];
+  const categories = ["all", "culture","food"];
   return (
     <div className="flex gap-2 items-center justify-center mx-4">
       <h3 className="font-bold text-lg flex-shrink-0">Filter by Category: </h3>

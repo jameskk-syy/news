@@ -11,7 +11,7 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="text-center md:text-left">
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
-            Daily News
+            News Website
             </h2>
             <p className="mt-2 text-gray-600 dark:text-gray-400">
               Building a better digital experience for everyone.
@@ -20,7 +20,7 @@ const Footer = () => {
 
           {/* Navigation Links */}
           <div className="flex space-x-6 text-gray-600 dark:text-gray-400">
-            <a href="/about" className="hover:text-gray-900 dark:hover:text-white">
+            {/* <a href="/about" className="hover:text-gray-900 dark:hover:text-white">
               About Us
             </a>
             <a href="/services" className="hover:text-gray-900 dark:hover:text-white">
@@ -28,8 +28,8 @@ const Footer = () => {
             </a>
             <a href="/contact" className="hover:text-gray-900 dark:hover:text-white">
               Contact
-            </a>
-            <a href="/privacy" className="hover:text-gray-900 dark:hover:text-white">
+            </a> */}
+            <a href="#" className="hover:text-gray-900 dark:hover:text-white">
               Privacy Policy
             </a>
           </div>

@@ -1,28 +1,37 @@
+"use client"; // Ensure this is at the top to make this a client-side component
+
 import Banner from "@/components/Banner";
 import NewsCard from "@/components/NewsCard";
 import NewsLetter from "@/components/NewsLetter";
-import { NewsItem } from "@/types/news";
+import { useState, useEffect } from "react"; // Add the hooks here
+import { useRouter } from "next/navigation"; // Import useRouter for navigation
 
-export default async function Home() {
-  const respones = await fetch(`https://news-api-next-js-kappa.vercel.app/api/news`);
-  const news = await respones.json();
+export default function Home() {
+  const [news, setNews] = useState([]); // Define the state for news
+  const router = useRouter();
+
+  useEffect(() => {
+    // Check if the user is verified in localStorage
+    const isVerified = localStorage.getItem("verified");
+
+    // If not verified, redirect to the login page
+    if (!isVerified) {
+      router.push("/login");
+    }
+  }, [router]);
+
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-     <Banner/>
+      <Banner />
 
-     <div className="my-12">
-      <h2 className="text-2xl font-bold mb-8">Latest News</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 justify-between">
-        {
-          news.slice(0, 3).map((item: NewsItem) => (
-            <NewsCard key={item._id} item={item}/>
-          ))
-        }
+      <div className="my-12 mt-10">
+        <p className="text-lg mb-8 text-gray-600">
+          Here, you will explore articles, photo essays, podcasts, and videos curated to provide an in-depth journey through the vibrant cultural experiences of the Global Village in Dubai, UAE.
+        </p>
+
       </div>
-     </div>
 
-     <NewsLetter/>
+      <NewsLetter />
     </div>
   );
 }
-

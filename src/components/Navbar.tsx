@@ -32,7 +32,7 @@ const Navbar = () => {
       <nav className="max-w-7xl mx-auto flex justify-between items-center px-4 sm:px-6 lg:px-8">
         {/* logo */}
         <div className="text-xl font-bold">
-          <Link href="/">Daily News</Link>
+          <Link href="/">News Website</Link>
         </div>
 
         {/* desktop navigation */}
@@ -43,12 +43,11 @@ const Navbar = () => {
                 News
               </NavigationMenuLink>
             </NavigationMenuItem>
-
             <NavigationMenuItem>
-              <NavigationMenuTrigger className="dark:bg-gray-900 dark:text-white">
+              {/* <NavigationMenuTrigger className="dark:bg-gray-900 dark:text-white">
                 Services
-              </NavigationMenuTrigger>
-              <NavigationMenuContent>
+              </NavigationMenuTrigger> */}
+              {/* <NavigationMenuContent>
                 <NavigationMenuLink>
                   <ul className="text-gray-600 shadow-md rounded-md py-4 px-5 space-y-2">
                     <li>
@@ -77,19 +76,19 @@ const Navbar = () => {
                     </li>
                   </ul>
                 </NavigationMenuLink>
-              </NavigationMenuContent>
+              </NavigationMenuContent> */}
             </NavigationMenuItem>
 
-            <NavigationMenuItem>
+            {/* <NavigationMenuItem>
               <NavigationMenuLink href="/about" className={`${pathname === '/about' ? 'text-red-500 font-semibold' : ''} hover: text-gray-600`}>
                 About
               </NavigationMenuLink>
-            </NavigationMenuItem>
-            <NavigationMenuItem>
+            </NavigationMenuItem> */}
+            {/* <NavigationMenuItem>
               <NavigationMenuLink href="/contact" className={`${pathname === '/contact' ? 'text-red-500 font-semibold' : ''} hover: text-gray-600`}>
                 Contact
               </NavigationMenuLink>
-            </NavigationMenuItem>
+            </NavigationMenuItem> */}
 
           </NavigationMenuList>
         </NavigationMenu>
@@ -102,7 +101,7 @@ const Navbar = () => {
                 <span className="mr-2">Dark Mode</span>
                 <Switch />
             </div>
-            <Button variant="default" className="px-6">Login</Button>
+            {/* <Button variant="default" className="px-6">Login</Button> */}
         </div>
 
         {/* hamburger menu for mobile */}
