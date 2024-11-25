@@ -8,7 +8,7 @@ const page = () => {
   const [password, setPassword] = useState("");
   const router = useRouter();
 
-  const storedEmail = "albosanifatima355@gmail.com
+  const storedEmail = "albosanifatima355@gmail.com"
   ";
   const storedPassword = "fatima11-11";
 
